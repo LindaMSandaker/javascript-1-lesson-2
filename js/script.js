@@ -90,11 +90,12 @@ pageHeading2.innerHTML = "Patrik-pus 🐾 💓 (updated)";
 // 11. Add some html to the div >> add <p><b>Bold text</b> not bold text</p>
 
 const someContainer = document.querySelector("div");
-someContainer.innerHTML = `<p>
-                            <b>Patrik was the sweetest cat you could wish to meet</b><br>
-                            He had many friends and admirers both in and outside of his Kingdom<br>
-                            May he rest in peace 💗
-                            </p>`;
+someContainer.innerHTML = `
+<p>
+<b>Patrik was the sweetest cat you could wish to meet</b><br>
+He had many friends and admirers both in and outside of his Kingdom<br>
+May he rest in peace 💗
+</p>`;
 
 // 12. select the ul
 //  a. get the existing HTML inside the ul element and assign it to a variable
